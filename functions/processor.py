@@ -17,10 +17,10 @@ class FileProcessor:
     def __init__(self, filepath, log_file, db_path=VALUE_MODIFIER_DB_PATH):
         self.filepath = filepath
         self.value_modifier = ValueModifier(db_path)
-        self.mean = MeanCalculator(INSTRUMENTS["MEAN"])
-        self.mean_selected_date = MeanCalculator(INSTRUMENTS["MEAN_DATE"], date_filter=is_selected_date)
-        self.latest_sum_calc = LatestSumCalculator(exclude_instruments=[INSTRUMENTS["MEAN"], INSTRUMENTS["MEAN_DATE"], INSTRUMENTS["STDDEV"]], top_n=TOP_N)
-        self.stddev= MeanStdDevCalculator(INSTRUMENTS["STDDEV"])
+        self.mean = MeanCalculator(INSTRUMENTS['MEAN'])
+        self.mean_selected_date = MeanCalculator(INSTRUMENTS['MEAN_DATE'], date_filter=is_selected_date)
+        self.latest_sum_calc = LatestSumCalculator(exclude_instruments=[INSTRUMENTS['MEAN'], INSTRUMENTS['MEAN_DATE'], INSTRUMENTS['STDDEV']], top_n=TOP_N)
+        self.stddev= MeanStdDevCalculator(INSTRUMENTS['STDDEV'])
         self.logger = setup_logger(log_file)
         self.processed_rows = 0
 
