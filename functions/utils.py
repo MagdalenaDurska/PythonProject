@@ -11,10 +11,10 @@ def is_selected_date(date):
 def format_results(results):
     return (
         "=== Computation Results ===\n"
-        f"Mean for instrument {INSTRUMENTS["MEAN"]}: {results['mean']:.2f}\n"
-        f"Mean for instrument {INSTRUMENTS["MEAN_DATE"]} for date {FILTERS["MONTH"]}/{FILTERS["YEAR"]}: {results['mean_selected_date']:.2f}\n"
-        f"Sum of latest 10 values for instruments other than {INSTRUMENTS["MEAN"]}, {INSTRUMENTS["MEAN_DATE"]} and {INSTRUMENTS["STDDEV"]}: {results['latest_sum']:.2f}\n"
-        f"Standard deviation for instrument {INSTRUMENTS["STDDEV"]}: {results['stddev']:.2f}\n"
+        f"Mean for instrument {INSTRUMENTS['MEAN']}: {results['mean']:.2f}\n"
+        f"Mean for instrument {INSTRUMENTS['MEAN_DATE']} for date {FILTERS['MONTH']}/{FILTERS['YEAR']}: {results['mean_selected_date']:.2f}\n"
+        f"Sum of latest 10 values for instruments other than {INSTRUMENTS['MEAN']}, {INSTRUMENTS['MEAN_DATE']} and {INSTRUMENTS['STDDEV']}: {results['latest_sum']:.2f}\n"
+        f"Standard deviation for instrument {INSTRUMENTS['STDDEV']}: {results['stddev']:.2f}\n"
     )
 
 def save_results(formatted_results, output_dir):
