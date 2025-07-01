@@ -33,6 +33,8 @@ def main():
         input_path = args.input
         output_dir = args.output_dir
 
+    os.makedirs(output_dir, exist_ok=True)
+
     log_file_path = os.path.join(output_dir, "logs.txt")
 
     processor = FileProcessor(input_path, log_file_path)
