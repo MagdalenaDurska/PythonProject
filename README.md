@@ -43,7 +43,7 @@ Logging functionality is enabled. Log levels, might need to be updated based on 
 
 ### inputs/outputs
 The program can be run with an input file of any name and saved to any location. For the batch run it is expected that input file is called 
-input.txt and is located in the input folder and the outputs are saved in output folder.
+input.txt and is located in the input folder and the outputs are saved in output folder. (A sample input file is already provided in the input folder)
 
 ### run main.py
 you can run the program in python terminal or cmd, by going to project location and using below commands:
