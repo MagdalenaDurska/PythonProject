@@ -1,0 +1,4 @@
+2025-07-01 22:02:06,565 - INFO - Started processing: C:\Users\s6sal\PycharmProjects\PythonProject\input/input.txt
+2025-07-01 22:02:06,568 - WARNING - Line 7: Parsing error - Error parsing line 'INSTRUMENT1, 12-Dec-2022,': One or more fields are empty
+2025-07-01 22:02:06,569 - INFO - Finished processing
+2025-07-01 22:02:06,569 - INFO - Number of processed rows: 99
