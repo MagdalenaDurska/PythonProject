@@ -1,5 +1,0 @@
-=== Computation Results ===
-Mean for instrument INSTRUMENT1: 54.69
-Mean for instrument INSTRUMENT2 for date 2/2025: 89.52
-Sum of latest 10 values for instruments other than INSTRUMENT1, INSTRUMENT2 and INSTRUMENT3: 592.43
-Standard deviation for instrument INSTRUMENT3: 25.39

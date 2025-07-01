@@ -1,4 +1,0 @@
-2025-07-01 21:06:12,433 - INFO - Started processing: C:\Users\s6sal\PycharmProjects\PythonProject\input.txt
-2025-07-01 21:06:12,433 - ERROR - File not found: C:\Users\s6sal\PycharmProjects\PythonProject\input.txt
-2025-07-01 21:06:12,433 - INFO - Finished processing
-2025-07-01 21:06:12,433 - INFO - Number of processed rows: 0
